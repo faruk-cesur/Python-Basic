@@ -2,9 +2,9 @@ urunListesi = {}
 
 urunStokKodu = input('Ürün Stok Kodu : ')
 urunCinsi = input('Ürün Cinsi : ')
-urunStok = floatr(input('Ürün Stok Miktarı : '))
+urunStok = float(input('Ürün Stok Miktarı : '))
 urunMarka = input('Ürün Markası : ')
-urunFiyat = floatr(input('Ürün Fiyatı : '))
+urunFiyat = float(input('Ürün Fiyatı : '))
 
 urunListesi.update({urunStokKodu:{
     'Ürün Stok Kodu : ':urunStokKodu,
@@ -19,9 +19,9 @@ print(' '.center(100,' '))
 
 urunStokKodu = input('Ürün Stok Kodu : ')
 urunCinsi = input('Ürün Cinsi : ')
-urunStok = floatr(input('Ürün Stok Miktarı : '))
+urunStok = float(input('Ürün Stok Miktarı : '))
 urunMarka = input('Ürün Markası : ')
-urunFiyat = floatr(input('Ürün Fiyatı : '))
+urunFiyat = float(input('Ürün Fiyatı : '))
 
 urunListesi.update({urunStokKodu:{
     'Ürün Stok Kodu : ':urunStokKodu,

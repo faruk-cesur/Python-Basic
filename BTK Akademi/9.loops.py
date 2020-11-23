@@ -59,3 +59,7 @@ print(toplam)
 for urun in urunler:
     if urun['price']<='5000':
         print(urun)
+
+
+
+        
