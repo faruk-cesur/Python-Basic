@@ -54,4 +54,3 @@ print(f'{faturaNo} NUMARALI FATURA SİSTEME KAYDEDİLDİ'.center(100,'*'))
 
 
 print(faturalar)
-a
