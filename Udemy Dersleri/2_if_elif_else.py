@@ -11,7 +11,7 @@
 # BKİ 25 ile 30 arasındaysa --------> Fazla Kilolu
 
 # BKİ 30'un üstündeyse -------------> Obez
-"""
+
 boy = float(input('Boyunuzu metre cinsinden girin: '))
 kilo = float(input('Kilonuzu KG cinsinden girin: '))
 
@@ -30,11 +30,11 @@ elif bki > 30:
 else:
     print('Girdiğiniz Değerler Geçersiz!')
 
-    """
+
 
 # Problem 2
 # Kullanıcıdan 3 tane sayı alın ve en büyük sayıyı ekrana yazdırın.    
-"""
+
 a = int(input('A :'))
 b = int(input('B :'))
 c = int(input('C :'))
@@ -49,7 +49,7 @@ elif c > a and c > b:
 else:
     print('Kodda veya girilen değerde bir problem var!')
 
-    """
+
 
 #     Problem 3
 # Kullanıcının girdiği vize1,vize2,final notlarına notlarına göre harf notunu hesaplayın.
@@ -69,7 +69,7 @@ else:
 #     Toplam Not >=  60 -----> DD
 #     Toplam Not >=  55 -----> FD
 #     Toplam Not <  55 -----> FF
-"""
+
 vize1 = int(input('1. Vize Notu: '))
 vize2 = int(input('2. Vize Notu: '))
 final = int(input('Final Notu: '))
@@ -95,7 +95,5 @@ elif ortalama < 55:
     print(f'ortalamanız {ortalama} ve notunuz = FF')
 else:
     print('Değer Geçersiz')
-
-    """
 
     
