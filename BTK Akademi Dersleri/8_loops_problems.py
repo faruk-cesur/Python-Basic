@@ -1,4 +1,6 @@
 '''
+PROBLEM 1
+
     ** 1-100 arasında rastgele üretilecek bir sayıyı aşağı yukarı ifadeleri ile buldurmaya çalışın.
     ** 100 üzerinden puanlama yapın. Her kullanılan hak için - puan.
     ** Hak bilgisini kullanıcıdan alın ve her soru belirtilen can sayısı üzerinden hesaplansın.
@@ -55,3 +57,24 @@ while True:
     elif secim == 4:
         print(f'\nOyundan Çıkış Yapılıyor...\nTekrar Bekleriz {ad} :)\n')
         break
+
+
+'''
+Problem 2
+
+Soru: Girilen bir sayının asal olup olmadığını bulun.
+** Asal sayı 1 ve kendisi hariç tam böleni olmayan sayılara denir.
+'''
+
+sayi = int(input('Bir Sayı Giriniz: '))
+
+if sayi > 1:
+    for i in range(1,sayi):
+        if (sayi % i) == 0:
+            print('Asal Sayı: ',sayi)
+            break
+        else:
+            print('Asal Sayı Değil: ',sayi)
+            break
+else:
+    print('Asal Sayı Değil: ',sayi)
