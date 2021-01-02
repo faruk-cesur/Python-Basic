@@ -1,3 +1,46 @@
 {
-    "python.pythonPath": "C:\\Users\\faruk\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "editor.fontSize": 28,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 0,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Source Code Pro",
+    "debug.console.fontFamily": "Source Code Pro",
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "python.languageServer": "Pylance",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.startupEditor": "newUntitledFile",
+    "python.pythonPath": "C:\\Users\\faruk\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "terminal.integrated.fontFamily": "monospace",
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "600",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "code-runner.executorMap": {
+
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "[plaintext]": {
+        "editor.quickSuggestions": false
+    },
+    "editor.quickSuggestionsDelay": 100,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "editor.minimap.enabled": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "workbench.statusBar.feedback.visible": false,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true,
 }
