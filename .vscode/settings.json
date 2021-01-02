@@ -1,7 +1,7 @@
 {
     "editor.fontSize": 28,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.fontWeight": "500",
     "editor.fontFamily": "Source Code Pro",
     "debug.console.fontFamily": "Source Code Pro",
